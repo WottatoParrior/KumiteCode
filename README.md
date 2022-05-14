@@ -2,7 +2,7 @@
 
 ## To Add
 
--CI/CD
+-~~CI/CD~~
 
 -Docker/Kubernetes
 
@@ -19,3 +19,7 @@
 -Ansible
 
 -Kafka
+
+## To Expand
+
+-CI/CD for Golang
