@@ -6,7 +6,7 @@
 
 -Docker/Kubernetes
 
--Protobuff
+-Protobuff for communication
 
 -Postgress
 
@@ -14,13 +14,15 @@
 
 -gRPC
 
--Jenkins
+-~~Jenkins~~ Used Github Actions in the end
 
--Ansible
+-Ansible for DB
 
--Kafka
+-Kafka for event streaming
 
 -Terraform
+
+-Sentry for logging
 
 ## To Expand
 
