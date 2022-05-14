@@ -14,7 +14,7 @@
 
 -gRPC
 
--~~Jenkins~~ Used Github Actions in the end
+-~~Jenkins~~
 
 -Ansible for DB
 
