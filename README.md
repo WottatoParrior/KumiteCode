@@ -1,6 +1,6 @@
 # KumiteCode
 
-## To Add 
+## To Add
 
 -CI/CD
 
@@ -19,4 +19,3 @@
 -Ansible
 
 -Kafka
-
