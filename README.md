@@ -18,7 +18,7 @@
 
 -Ansible for DB
 
--Kafka for event streaming
+-RabbitMQ for event streaming
 
 -Terraform
 
