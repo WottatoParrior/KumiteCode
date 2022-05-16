@@ -2,6 +2,17 @@
 
 Conduct Interviews by Code Reviewing with the candidate
 
+**Prereqs:**
+
+-Docker
+-Go
+
+---
+
+If you have Make installed run **make run dev**
+
+If you don't have Make installed, run **docker compose up -d** and then **air**
+
 ## To Add
 
 -~~CI/CD~~
@@ -26,7 +37,7 @@ Conduct Interviews by Code Reviewing with the candidate
 
 -Sentry for logging
 
--Air for golang
+-~~Air for golang~~
 
 ## To Expand
 
@@ -40,4 +51,5 @@ for runing tests and separate ones for deploying the app.
 Day 2.Did some research on Docker and how to create multi stage builds using distroless container images.
 Packaged everything in one container using docker compose. Theoretically the app and the db should be on different containers, I think. Also setup a Postgres container, need to check if it can actually communicate with the app.
 
-Next: Add Air for live reload, connect the app with Posgress and fetch some stuff from there
+Day 3.Added air for live reload and a Makefile to run all the commands needed at once. This runs the docker compose file and then
+runs air to enable live-reload.

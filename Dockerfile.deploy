@@ -1,8 +1,8 @@
 #multistage build distroless container
+# This is for making a distroless golang exe
 
 FROM golang:1.16-buster AS build
 WORKDIR /app
-
 
 COPY go.mod ./
 COPY go.sum ./

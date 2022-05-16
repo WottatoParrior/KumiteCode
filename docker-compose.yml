@@ -1,5 +1,5 @@
 # Use postgres/example user/password credentials
-version: '3.1'
+version: '3.8'
 
 volumes:
   post-db:
@@ -14,10 +14,3 @@ services:
       - post-db:/data/db
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-
-  go_api:
-    build: .
-    ports:
-      - '10000:10000'
-    depends_on:
-      - postgres_db
