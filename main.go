@@ -27,5 +27,6 @@ func samplePage(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	fmt.Println("KumiteCode is up and running")
+	DBConnect()
 	handleRequests()
 }
