@@ -9,6 +9,8 @@ Conduct Interviews by Code Reviewing with the candidate
 
 ---
 
+Copy the .env.example and rename it to .env
+
 If you have Make installed run **make run dev**
 
 If you don't have Make installed, run **docker compose up -d** and then **air**
@@ -53,3 +55,5 @@ Packaged everything in one container using docker compose. Theoretically the app
 
 Day 3.Added air for live reload and a Makefile to run all the commands needed at once. This runs the docker compose file and then
 runs air to enable live-reload.
+
+Day 4.Added db connection and .env variables loading for the app
